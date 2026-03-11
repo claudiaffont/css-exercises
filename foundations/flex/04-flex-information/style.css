@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier Prime', Courier, monospace;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
@@ -10,6 +16,27 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin: 32px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  padding: 20px;
+  flex-wrap: wrap; 
+}
+
+.item {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  width: 200px;          
+}
+.text {
+  text-align: center;
+  margin-top: 16px;
+  color: #555;
 }
 
 /* do not edit this footer */
